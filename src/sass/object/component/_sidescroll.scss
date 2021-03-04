@@ -1,0 +1,10 @@
+/*
+Flexboxでサイドスクロールに対応する方法
+https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp
+*/
+.c-sidescroll{
+    //display:flex;
+    display: inline-flex;
+    height: calc(100vh - 17px); //これをしないと横スクロールバー分高さが出て縦スクロールバーが出る。overflow-y:hidden;だと多分コンテンツの下が少し切れてしまうため、このような措置となった。
+    white-space: nowrap; //これを親要素につける
+}

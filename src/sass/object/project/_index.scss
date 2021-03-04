@@ -1,0 +1,40 @@
+.p-sec{
+    position: relative;
+    width: 100vw;
+}
+.p-sec01{
+    background: red;
+}
+.p-sec02{
+    background: blue;
+}
+.p-char02{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color: #fff;
+    font-size: 200px;
+    font-weight: bold;
+}
+.p-square{
+    position: absolute;
+    top:300px;
+    right: 0;
+    width: 300px;
+    height: 500px;
+    background:rgb(131, 255, 152) url('../images/emo.png') no-repeat -10px -10px;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+//https://developer.a-blogcms.jp/blog/custom/backpaxjs.html
+//こんなパララックスが作りたい
+//考えつくのはスクロール量に応じて0〜100%にbgポジション変える
+//けどこれだと画像が見えていない時の処理をどうすべきか悩む
+//見えたところからスタートって感じにするといいんだろうけどどうするんだろうか
+//https://into-the-program.com/move-the-background-image-by-scroll/
+//background-sizeを大きく設定しておくらしい
+//https://saruwakakun.com/html-css/reference/parallax　これ恐ろしいよな・・・
+//https://www.market-me.fr/lenno これすごく勉強になる　どうやったらウインドウ出入りの時の値を固定できるのだろうか。それが簡単にできるようになればかなり表現の幅が広がる
+//https://saruwakakun.com/html-css/reference/parallax
